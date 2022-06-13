@@ -1,0 +1,85 @@
+body{
+    font-family: 'Consolas';
+    font-size: 30px;
+}
+
+table{
+    border: 1px solid black;
+    border-spacing: 0px;
+    text-align: center;    
+}
+
+table tr td{
+    border: solid black;
+    width: 30px;
+    height: 30px; 
+}
+
+.ures{
+    background-color: darkgrey;
+}
+
+.ures:hover{
+    background-color: lightgrey;
+}
+
+.egyes{
+    color: blue;
+    background-color: lightgrey;
+}
+
+.egyes:hover{
+    background-color: rgb(143, 233, 233);
+}
+
+.kettes{
+    color: green;
+    background-color: lightgrey;
+}
+
+.kettes:hover{
+    background-color: rgb(111, 236, 153);
+}
+
+.harmas{
+    color: red;
+    background-color: lightgrey;
+}
+
+.harmas:hover{
+    background-color: rgb(218, 149, 149);
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.z{
+    background-color: darkgrey;
+    
+}
+
+.z:hover{
+    background-color: lightgrey;
+}
+
+.kerdojel{
+    background-color: darkgrey;
+}
+
+.kerdojel:hover{
+    background-color: lightgrey;
+}
+
+table tr td img{
+    width: 30px;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 30px;
+}
+
